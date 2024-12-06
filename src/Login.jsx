@@ -12,7 +12,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const BACKEND = "https://expense-tracker-backend-yt.vercel.app/"
+const BACKEND = "https://expense-tracker-backend-yt.vercel.app"
 
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");

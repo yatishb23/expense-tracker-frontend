@@ -21,7 +21,7 @@ import { Add, Delete } from "@mui/icons-material";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
-const BACKEND = "https://expense-tracker-backend-yt.vercel.app/"
+const BACKEND = "https://expense-tracker-backend-yt.vercel.app"
 
 export default function Expenses() {
   const [searchParams] = useSearchParams();

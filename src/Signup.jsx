@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 
-const BACKEND = "https://expense-tracker-backend-yt.vercel.app/"
+const BACKEND = "https://expense-tracker-backend-yt.vercel.app"
 
 export default function Signup({ onSignUp }) {
   const [email, setEmail] = useState("");
